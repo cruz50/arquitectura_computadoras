@@ -1,0 +1,101 @@
+.fondoPU{
+    background-color: rgb(255, 255, 255);
+    color: rgb(41, 35, 35);
+}
+
+.tituloPU{
+    position: absolute;
+        top: -40px;
+        left: 400px;
+        background: linear-gradient(90deg, 
+        #ff9191,
+        #ffad6a,
+        #c3ffa0, #81fff4,
+        #91ffbd, #ff79eb);
+        background-size: 400%;
+        font-size:50px;
+        font-family: 'Press Start 2P', cursive;
+        word-spacing: 5px;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        animation: animate 10s linear infinite;
+
+}
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+
+    100%{
+        background-position: 400%;
+    }
+}
+
+    ul{
+        list-style-type: none;
+    }
+    
+    #menu{
+    
+    text-align: center;
+    font-size:24PX;
+    font-weight: bold;
+    width: 1200px;
+    margin: 20px ;
+    }
+    a{
+        font-family: 'Press Start 2P', cursive;
+        font-size:10px;
+    display:block;
+    text-decoration:none;
+    background-color: #3f004f;
+    border-style: solid;
+    color: #FFFFFF;
+    }
+    .aa{
+        display:block;
+    text-decoration:none;
+    background-color: #3f004f;
+    border-style: solid;
+    color: #FFFFFF;
+    }
+    
+    a:hover{
+    background-color:#ae42c9;
+    color:"#999999;
+    }
+    li.primera{
+        
+       width: 150px;
+       margin-right:1px;
+       position:relative;
+       float:left;
+    }
+    li:hover ul {
+    display:block;
+    position:absolute;
+    left: 0px;
+    }
+    li ul{
+    display:none;
+    padding: 0px;
+    }
+    ul li a{
+    width:150px;
+    padding: 6px 0px 8px 0px;
+    border-top-color: white;
+    }
+
+    .diT{
+	   position: absolute;
+       top: 70px;
+       left:190px;
+    }
+
+    .imagen1PU{
+        margin: auto;
+        margin-top: 85px;
+        display: block;
+        width: 700px;
+        height: 380px;
+    }

@@ -1,0 +1,102 @@
+.fondo{
+    background-color: rgb(253, 253, 253);
+    color: rgb(0, 0, 0);
+}
+.tabla-superior {
+    position: relative;
+    z-index: 2; /* Ajusta el índice Z para que sea mayor que el de la clase "titulo" */
+}
+.titulo{
+    position: relative;
+    z-index: 1;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    background: linear-gradient(90deg, 
+    #ecf9cc,
+    #afc085,
+    #8ea25a, #779037,
+    #5e791a, #344703);
+    background-size: 400%;
+    word-spacing: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+}
+.subtitulo{
+    left: 350px;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    background: linear-gradient(90deg, 
+    #ecf9cc,
+    #afc085,
+    #8ea25a, #779037,
+    #5e791a, #344703);
+    background-size: 400%;
+    word-spacing: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+}
+ @keyframes animate{
+        0%{
+            background-position: 0%;
+        }
+
+        100%{
+            background-position: 400%;
+        }
+    }
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+}
+.text-cont{
+    margin-left: 20px;
+	font-family: 'Press Start 2P', cursive;
+	text-align: left;
+    color: white;
+    flex: 1;
+    font-size: 15px;
+}
+.ImagenU2_1{
+    width: 500px;
+    height: 350pxs;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: right;
+}
+.text-cont2{
+    margin-left: 20px;
+	font-family: 'Press Start 2P', cursive;
+	text-align: left;
+    color: white;
+    flex: 1;
+    font-size: 15px;
+}
+.texto_Normal{
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+.ImagenU2_3{
+    margin-left: 400px;
+    width: 500px;
+    height: 250px;
+}
+.texto_Normal1{
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+}
+.ImagenU2_4{
+    width: 500px;
+    height: 300px;
+}

@@ -1,0 +1,111 @@
+.fondo{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Press Start 2P', cursive;
+}
+.tabla-superior {
+    position: relative;
+    z-index: 2; /* Ajusta el índice Z para que sea mayor que el de la clase "titulo" */
+}
+.titulo{
+    position: relative;
+    z-index: 1;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    background: linear-gradient(90deg, 
+    #aeb1ff,
+    #7e81dc,
+    #5a5dc4, #181c8e,
+    #1a1c65, #000249);
+    background-size: 400%;
+    word-spacing: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+}
+.subtitulo{
+    left: 350px;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    background: linear-gradient(90deg, 
+    #aeb1ff,
+    #7e81dc,
+    #5a5dc4, #181c8e,
+    #1a1c65, #000249);
+    background-size: 400%;
+    word-spacing: 5px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+}
+ @keyframes animate{
+        0%{
+            background-position: 0%;
+        }
+
+        100%{
+            background-position: 400%;
+        }
+
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: right;
+    }
+    .text-cont{
+        margin-left: 20px;
+        font-family: 'Press Start 2P', cursive;
+        text-align: left;
+        color: white;
+        flex: 1;
+        font-size: 15px;
+    }
+    .container2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: right;
+    }
+    .text-cont2{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-family: 'Press Start 2P', cursive;
+        text-align: left;
+        color: white;
+        flex: 1;
+        font-size: 15px;
+    }
+    .texto_Normal{
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Press Start 2P', cursive;
+    }
+    .texto_Normal1{
+        text-align: left;
+        font-size: 15px;
+        font-family: 'Press Start 2P', cursive;
+        margin-left: 20px;
+    }
+    .container3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: right;
+    }
+    .text-cont3{
+        margin-left: 20px;
+        font-family: 'Press Start 2P', cursive;
+        text-align: center;
+        color: white;
+        flex: 1;
+        font-size: 15px;
+    }
+    .ImagenU4_1{
+        width: 450px;
+        height: 300px;
+    }
